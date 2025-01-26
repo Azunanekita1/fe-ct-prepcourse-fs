@@ -5,6 +5,15 @@ function resta(x, y) {
   // 10, 5 ---> 5
   // 5, 5 ---> 0
   // Tu código:
+
+if (resta === x, y) {
+  return x - y;
+} else 
+{return y - x}
+
 }
+resta(5,2);
+resta(5,5);
+resta(10,5);
 
 module.exports = resta;

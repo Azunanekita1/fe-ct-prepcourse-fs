@@ -5,6 +5,14 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+if (suma === x, y) {
+  return x + y;
+} else 
+{return y + x}
+
 }
+suma(5,2);
+suma(5,5);
+suma(5,-5);
 
 module.exports = suma; 

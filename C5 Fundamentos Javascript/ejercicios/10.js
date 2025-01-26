@@ -6,19 +6,12 @@ function devolverString(string) {
   // "hola mundo" ---> "hola mundo" 
   // "SoyHenry" ---> "SoyHenry" 
   // Tu código:
-  if (string === "texto") {
-    console.log ("texto" );
-  } else if (string === "hola mundo"){
-    console.log ("hola mundo");
-  } else if (string === "Soyhenry"){
-    console.log ("Soyhenry");
-  } else {console.log ("false");
-
-  }
+    return string ;
   
 }
+//ok
+module.exports = devolverString;
 
 devolverString ("texto");
 devolverString ("hola mundo");
-devolverString ("Soyhenry");
-devolverString ("Maria");
+devolverString ("SoyHenry");

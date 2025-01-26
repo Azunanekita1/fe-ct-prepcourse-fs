@@ -7,16 +7,14 @@ function esNumeroEntero(numero) {
   // -1212 ---> true 
   // 121.212 ---> false 
   // Tu código:
-  if  (numero === 1) {
-    console.log ("true");
-  } else if (numero === -1){
-    console.log("Es entero con negativo");
+  if (numero === Math.floor(numero)) {
+    return true;
+  } else {
+    return false;
+}  }
+//ok
+module.exports = esNumeroEntero;
 
-  } else { console.log("No es entero");}
-  }
-
-esNumeroEntero (1);
-esNumeroEntero (3);
-esNumeroEntero (-1);
 esNumeroEntero (24);
-esNumeroEntero (0);
+esNumeroEntero (-1212);
+esNumeroEntero (121.212);

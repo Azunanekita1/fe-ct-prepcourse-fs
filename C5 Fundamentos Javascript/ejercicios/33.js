@@ -7,6 +7,12 @@ function elevar(num, exponent) {
   // 2, 2 ---> 4
   // 0, 5 ---> 0
   // Tu código:
+
+return Math.pow (num,exponent);
+
 }
+
+elevar(2,2);
+elevar(0,5);
 
 module.exports = elevar;

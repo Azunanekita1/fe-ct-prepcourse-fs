@@ -7,10 +7,11 @@ function sonIguales(x, y) {
   // 5, 8 ---> false 
   // Tu código:
 if (x === y) { 
-console.log (true);
-} else {console.log(false);
-
+return true;
+} else { return false;
 }
  }
+
+module.exports = sonIguales;
 sonIguales (5,5);
 sonIguales (5,8);

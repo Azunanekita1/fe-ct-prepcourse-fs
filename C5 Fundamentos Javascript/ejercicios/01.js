@@ -3,4 +3,5 @@
 
 const nuevoString = "Henry";
 
+console.log (nuevoString);
 module.exports = nuevoString;
